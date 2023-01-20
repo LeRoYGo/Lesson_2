@@ -153,8 +153,8 @@ body {
     padding-left: 179px;
     color: #ffffff;
     background: #62d0df;
-    min-height: 607px;
     background-color: #18b5a4;
+    overflow: hidden;
     .text-content {
         max-width: 555px;
         display: inline-block;
@@ -175,6 +175,8 @@ body {
     }
     img {
         float: right;
+        width: 40%;
+        height: 100%;
     }
 }
 .third-screen {
@@ -189,7 +191,7 @@ body {
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
-            margin: 156px 225px 0 0;
+            margin: 156px 150px 0 0;
         }
         div {
             max-width: 592px;
