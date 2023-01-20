@@ -154,7 +154,7 @@ body {
     color: #ffffff;
     background: #62d0df;
     min-height: 607px;
-    background: url("../../img/woman-does-sports.jpg") right/40% no-repeat, #18b5a4;
+    background-color: #18b5a4;
     .text-content {
         max-width: 555px;
         display: inline-block;
@@ -172,6 +172,9 @@ body {
                 font-size: 20px;
             }
         }
+    }
+    img {
+        float: right;
     }
 }
 .third-screen {
