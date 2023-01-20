@@ -123,6 +123,8 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  width: 50%;
+  height: 100%;
   z-index: -1;
 }
 .home-screen header {
@@ -145,7 +147,7 @@ body {
   padding-bottom: 10px;
 }
 .home-screen header ul li:hover {
-  border-bottom: 3px solid #22356f;
+  border-bottom: 1px solid #22356f;
 }
 .home-screen header a {
   display: inline-block;

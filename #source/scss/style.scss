@@ -63,6 +63,8 @@ body {
         position: absolute;
         top: 0;
         right: 0;
+        width: 50%;
+        height: 100%;
         z-index: -1;
     }
     header {
@@ -86,7 +88,7 @@ body {
                 padding-bottom: 10px;
             }
             li:hover {
-                border-bottom: 3px solid $text-dark;
+                border-bottom: 1px solid $text-dark;
             }
         }
         a {
