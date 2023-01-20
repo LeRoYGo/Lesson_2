@@ -232,22 +232,32 @@ body {
 .third-screen {
   padding: 0 131px 0 106px;
   color: #22356f;
-  width: 100%;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.third-screen div {
   display: flex;
 }
-.third-screen span {
+.third-screen div span {
   display: inline-block;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   margin: 156px 225px 0 0;
 }
-.third-screen div {
+.third-screen div div {
   max-width: 592px;
   margin-top: 156px;
-  margin: 156px auto 40px auto;
+  margin: 156px auto 50px auto;
 }
-.third-screen div p {
+.third-screen div div p {
   font-weight: 500;
   font-size: 24px;
+}
+.third-screen span {
+  white-space: nowrap;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
