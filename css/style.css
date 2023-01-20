@@ -104,7 +104,6 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Larsseit", "Times New Roman", Times, serif;
   background: #ffffff;
-  padding-bottom: 27px;
 }
 
 .home-screen {
@@ -209,8 +208,10 @@ body {
   color: #ffffff;
   background: #62d0df;
   min-height: 607px;
+  background: url("../../img/woman-does-sports.jpg") right/40% no-repeat, #18b5a4;
 }
 .second-screen .text-content {
+  max-width: 555px;
   display: inline-block;
   font-weight: 700;
   margin-top: 151px;
@@ -221,14 +222,32 @@ body {
   margin-bottom: 75px;
 }
 .second-screen .text-content p {
-  width: 555px;
   font-size: 24px;
 }
 .second-screen .text-content p span {
   font-weight: 400;
   font-size: 20px;
 }
-.second-screen img {
-  float: right;
-  height: 100%;
+
+.third-screen {
+  padding: 0 131px 0 106px;
+  color: #22356f;
+  width: 100%;
+  display: flex;
+}
+.third-screen span {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 156px 225px 0 0;
+}
+.third-screen div {
+  max-width: 592px;
+  margin-top: 156px;
+  margin: 156px auto 40px auto;
+}
+.third-screen div p {
+  font-weight: 500;
+  font-size: 24px;
 }/*# sourceMappingURL=style.css.map */
